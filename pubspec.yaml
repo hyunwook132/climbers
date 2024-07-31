@@ -1,0 +1,49 @@
+name: carrot_flutter
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  image_picker: ^1.1.2
+  timeago: ^3.7.0
+  webview_flutter: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# flutter_launcher_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   remove_alpha_ios: true
+#   image_path: "assets/images/icon.jpeg"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+  - assets/images/climbing_wall.png
+  - assets/images/push_up.png
+  - assets/images/squat.png
+  - assets/images/pull_up.png
+  - assets/images/running.png
+  - assets/images/peakers.jpeg
+  - assets/images/the_climb.jpeg
+  - assets/images/seoul_forest.jpeg
+
+

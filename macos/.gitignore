@@ -1,0 +1,9 @@
+# Flutter-related
+**/Flutter/ephemeral/
+**/Pods/
+**/build/
+**/assets/images/
+
+# Xcode-related
+**/dgph
+**/xcuserdata/
